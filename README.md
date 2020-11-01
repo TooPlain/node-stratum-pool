@@ -1,10 +1,13 @@
 High performance Stratum poolserver for equihash in Node.js. One instance of this software can startup and manage multiple coin
 pools, each with their own daemon and stratum port :)
 
+Current ToDo:
+Add KawPow support for both node-stratum-pool and [s-nomp (Some New Open Mining Portal)](https://github.com/TooPlain/s-nomp).
+
 #### Notice
 This is a module for Node.js that will do nothing on its own. Unless you're a Node.js developer who would like to
 handle stratum authentication and raw share data then this module will not be of use to you. For a full featured portal
-that uses this module, see [s-nomp (Some New Open Mining Portal)](https://github.com/s-nomp/s-nomp). It
+that uses this module, see [s-nomp (Some New Open Mining Portal)](https://github.com/TooPlain/s-nomp). It
 handles payments, website front-end, database layer, mutli-coin/pool support, auto-switching miners between coins/pools,
 etc.. The portal also has an [MPOS](https://github.com/MPOS/php-mpos) compatibility mode so that the it can function as
 a drop-in-replacement for [python-stratum-mining](https://github.com/Crypto-Expert/stratum-mining).
